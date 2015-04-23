@@ -54,11 +54,11 @@ return array(
 
         'mysql' => array(
             'driver'    => 'mysql',
-            'host'      => env('DB_HOST', 'localhost'),
-            'port'      => env('DB_PORT', ''),
-            'database'  => env('DB_DATABASE', 'greyowl'),
-            'username'  => env('DB_USERNAME','mysqladmin')
-,            'password'  => env('DB_PASSWORD', 'admin123'),
+            'host'      => 'localhost',
+            'port'      => '',
+            'database'  => 'zkgemqngeb',
+            'username'  => 'zkgemqngeb',
+            'password'  => 'ny4h6mb8AC',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',

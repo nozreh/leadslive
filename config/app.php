@@ -29,7 +29,7 @@ return array(
     |
     */
 
-    'url' => env('URL', 'http://greyowl.dev'),
+    'url' => 'http://phplaravel-6721-14867-34320.cloudwaysapps.com',
 
     /*
     |--------------------------------------------------------------------------
