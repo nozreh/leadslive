@@ -12,4 +12,3 @@ sftp-config.json
 selenium.php
 .env.*.php
 .env.php
-config/app.php
