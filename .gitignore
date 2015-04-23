@@ -1,6 +1,5 @@
 /bootstrap/compiled.php
 /vendor
-/config/database.php
 composer.phar
 .DS_Store
 php_errors.log
@@ -11,7 +10,6 @@ nginx-ssl.error.log
 php-errors.log
 sftp-config.json
 selenium.php
-.env
 .env.*.php
 .env.php
 config/app.php
