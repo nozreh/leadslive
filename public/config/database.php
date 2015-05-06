@@ -54,11 +54,11 @@ return array(
 
         'mysql' => array(
             'driver'    => 'mysql',
-            'host'      => '127.0.0.1',
+            'host'      => 'localhost',
             'port'      => '',
-            'database'  => 'leadslive',
-            'username'  => 'homestead',
-            'password'  => 'secret',
+            'database'  => 'zkgemqngeb',
+            'username'  => 'zkgemqngeb',
+            'password'  => 'ny4h6mb8AC',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
