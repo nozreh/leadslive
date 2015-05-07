@@ -19,7 +19,8 @@ redirect = "home"
         </div>
         <div class="row">
             <div class="col-sm-6 wow fadeInLeft">
-                <img class="img-responsive" src="{{ 'assets/images/main-feature.png'|theme }}" alt="">
+                <!-- <img class="img-responsive" src="{{ 'assets/images/main-feature.png'|theme }}" alt=""> -->
+                {% content 'about/video.htm' %}
             </div>
             {% partial account ~ '::register' %}
         </div>
