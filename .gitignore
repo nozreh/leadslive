@@ -1,8 +1,7 @@
-/config/app.php
-/config/database.php
-/config/
-/bootstrap/compiled.php
-/vendor
+/public/config/app.php
+/public/config/database.php
+/public/bootstrap/compiled.php
+/public/vendor
 composer.phar
 .DS_Store
 php_errors.log
