@@ -14,26 +14,18 @@ security = "all"
 <body id="home" class="homepage">
 
 <header id="header">
-    {% partial "nav-signin" %}
+    {% partial "nav-signed-in" %}
 </header><!--/header-->
 
 <section id="">
         {% page %}
 </section>
 
-<section id="get-in-touch">
-    <div class="container">
-        <div class="section-header">
-            {% content 'precontact.htm' %}
-        </div>
-    </div>
-</section><!--/#get-in-touch-->
-
 <section id="contact">
     {% partial "contact" %}
 </section><!--/#contact-->
 
-<footer id="footer">
+<footer id="footer" style="position: absolute; bottom: 0; width: 100%;">
     {% partial "footer" %}
 </footer><!--/#footer-->
 

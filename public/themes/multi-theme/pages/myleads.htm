@@ -1,6 +1,6 @@
 title = "My Leads"
 url = "/myleads"
-layout = "component"
+layout = "signin-layout"
 description = "List all the available leads file for the user to download."
 hidden = "0"
 
@@ -12,5 +12,6 @@ security = "user"
 redirect = "signin"
 ==
 <div class="row">
+	<h2>My Reports</h2>
     {% component 'leadsDownload' %}
 </div>
