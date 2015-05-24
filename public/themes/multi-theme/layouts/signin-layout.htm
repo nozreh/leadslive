@@ -21,7 +21,11 @@ security = "all"
         {% page %}
 </section>
 
-<footer id="footer" style="position: fixed; bottom: 0; width: 100%;">
+<footer class="hidden-xs hidden-sm" id="footer" style="position: fixed; bottom: 0; width: 100%;">
+    {% partial "footer" %}
+</footer><!--/#footer-->
+
+<footer class="hidden-md hidden-lg" id="footer">
     {% partial "footer" %}
 </footer><!--/#footer-->
 
