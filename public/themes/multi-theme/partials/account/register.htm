@@ -11,7 +11,7 @@ security = "all"
 <div class="col-sm-6 wow fadeInRight" id="registerForm">
     <div class="signin-form">
     {% if input('code') is empty %}
-        <form data-request="onRegister">
+        <form data-request="onRegister" style="margin-top: 15px;">
             <div class="form-group">
                 <label for="name">First Name</label>
                 <input
@@ -51,12 +51,14 @@ security = "all"
             By signing up you agree to <a href="/terms">Terms of Use</a> and <a href="/privacy">Privacy Policy</a>
         </div>
          {% else %}
-            <form data-request="onActivate" data-request-success="window.location.href = '/'">
+            <h3 class="column-title">Activate your Account</h3>
+            <form data-request="onActivate" data-request-success="window.location.href = '/'" style="margin-top: 35px;">
                 <div class="input-group">
                   <span class="input-group-addon">Code</span>
                   <input type="code" name="code" class="form-control" placeholder="Enter activation code" value="{{ input('code') }}">
                 </div>
-                <button type="submit" class="form-control">Activate</button>
+                <button type="submit" class="btn btn-md btn-primary" style="display:block; margin: auto; margin-top: 15px;">
+                    <span class="fa fa-user-plus"></span> Click here to activate</button>
             </form>
         {% endif %}
     </div>
